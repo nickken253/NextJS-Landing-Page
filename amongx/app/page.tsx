@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "./header";
 import Footer from "./footer";
+import image4 from "../../img/image 4.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCircleArrowDown,
@@ -70,6 +71,7 @@ export default function Home() {
 
       <div className="w-full relative overflow-croll">
         <button className="absolute bg-white/40 p-6 item-center rounded-full aspect-square -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2 text-2xl"><FontAwesomeIcon className="aspect-square w-16" icon={faPlay} size="2xl" /></button>
+        {/* <Image className="object-cover min-h-[400px] w-full" src={image4} alt="AmongX" /> */}
         <img className="object-cover min-h-[400px] w-full" src="https://lh3.googleusercontent.com/pw/AP1GczNdMsNbhZINeDMI45KpImSUw4oFXJkASSf7xvyjkzD-fiIkRFTrVNqbFEs-kohQlNtJzKWUM3-0VivA3bsFmBuWv0cABR1aYe6kJXUy-aWbOkuf5AB_Az-jUGJGyK1TxLY-ExxBbV7iHgANgwmzF_xG=w1440-h700-s-no-gm?authuser=0" alt="AmongX" />
       </div>
 
