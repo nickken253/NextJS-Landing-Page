@@ -7,7 +7,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
-    const [isActiveNav, setActiveNav] = useState(true);
+    const [isActiveNav, setActiveNav] = useState(false);
     const changeActiveNav = () => {
 
         setActiveNav(!isActiveNav);
